@@ -1,4 +1,4 @@
-# Nhập dữ liệu cho biến name từ bàn phím
+# Nhập dữ liệu cho biến Name, Age từ bàn phím
 Name = input()
 Age = int(input())
 Age = Age + 15
