@@ -1,0 +1,10 @@
+def timkutulonhon3(arr1):  
+    answer = []
+    for j in arr1:
+        if len(j) > 3:
+            answer.append(j)
+    print(answer)
+    
+str1 = str(input())
+arr1 = str1.split()
+timkutulonhon3(arr1)
