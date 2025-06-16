@@ -1,0 +1,11 @@
+def sumOfAll(n):
+    Answer = 0
+    for i in range(1, n):  
+        if n % i == 0:
+            Answer += i
+    if Answer > n: 
+        return True
+    return False  
+
+n = int(input())
+print(sumOfAll(n))
